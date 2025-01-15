@@ -1,0 +1,24 @@
+.help-page {
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
+  font-family: Arial, sans-serif;
+}
+
+.help-page h1 {
+  color: green;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.shipping-info h2 {
+  color: green;
+  margin-top: 1.5rem;
+}
+
+.shipping-info p {
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
