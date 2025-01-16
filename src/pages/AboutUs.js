@@ -1,7 +1,7 @@
 import React from "react";
-import "./AboutUs.css";
+import "./AboutUs.css"; // Imported About Us stylesheet
 
-function AboutUs() {
+function AboutUs() { // About Us Function Returns the description of the company
   return (
     <div className="about-us">
       <h1>About Us</h1>
