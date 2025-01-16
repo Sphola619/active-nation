@@ -1,6 +1,7 @@
 import React from "react";
 import "./ExtraServices.css";
 
+// Page includes generic extra services provided by fictional company
 function ExtraServices() {
   return (
     <div className="extra-services">
