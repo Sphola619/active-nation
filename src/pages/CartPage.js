@@ -12,7 +12,8 @@ function CartPage() {
 
   // Calculate total with shipment
   const totalWithShipment = cart.total + shipmentCost;
-
+  
+  // Ensure user selects a shipment method
   const handleClearCart = () => {
     if (!shipment) {
       alert("Please select a shipment method before proceeding.");
@@ -26,10 +27,10 @@ function CartPage() {
     <div className="cart-page">
       <h1>Your Cart</h1>
       {cart.items.length === 0 ? (
-        <p>Your cart is empty!</p>
+        <p>Your cart is empty!</p> // Return p if client has not added to cart
       ) : (
         <>
-          <ul>
+          <ul> {/* Unordered list of items and total price */}
             {cart.items.map((item) => (
               <li key={item.id}>
                 {item.name} - R{item.price} x {item.quantity}
@@ -42,7 +43,7 @@ function CartPage() {
             <select
               value={shipment}
               onChange={(e) => setShipment(e.target.value)}
-            >
+            > {/* Client shipment options */}
               <option value="">Select</option>
               <option value="standard">Standard Shipping - R50</option>
               <option value="express">Express Shipping - R100</option>
