@@ -1,0 +1,57 @@
+.landing-page {
+  text-align: center;
+  padding: 20px;
+}
+
+.landing-header {
+  margin-bottom: 30px;
+}
+
+.logo-green {
+  color: green;
+}
+
+.logo-gold {
+  color: gold;
+}
+
+.slogan {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  color: #555;
+}
+
+.categories {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.category-card {
+  width: 150px;
+  text-decoration: none;
+  color: inherit;
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.category-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.category-card:hover {
+  transform: scale(1.1);
+}
+
+.category-card h3 {
+  margin-top: 10px;
+  font-size: 1rem;
+}
+
+.category img {
+  max-width: 100%;
+  height: auto;
+}

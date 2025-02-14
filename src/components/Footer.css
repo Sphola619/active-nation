@@ -1,0 +1,23 @@
+.footer {
+  background-color: green; /* Matches the header color */
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 1rem;
+}
+
+.footer-link {
+  color: gold; /* Matches the header links */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
