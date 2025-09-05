@@ -3,6 +3,7 @@
   color: white;
   text-align: center;
   padding: 1rem 0;
+  width: 100%;
 }
 
 .footer-links {
@@ -20,4 +21,20 @@
 
 .footer-link:hover {
   text-decoration: underline;
+}
+
+/* Ensure the footer stays at the bottom */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensures the wrapper takes at least the full viewport height */
+}
+
+main {
+  flex: 1; /* Makes the main content expand to push the footer down */
 }
